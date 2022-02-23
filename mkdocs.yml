@@ -1,1 +1,35 @@
-site_name: My Docs
+site_name: Haverford College Digital Scholarship
+nav:
+    - Home: index.md
+    - People: people.md
+    - Projects: projects.md
+    - Equipment: equipment.md
+
+
+theme:
+  name: material
+  #custom_dir: overrides
+  palette:
+  - scheme: default
+    primary: pink
+    accent: amber
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+  - scheme: slate
+    primary: pink
+    accent: amber
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+  features:
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github-alt
+  logo: img/logo.png
+  favicon: img/logo.png
+  language: en
+repo_name: HCDigitalScholarship
+repo_url: https://github.com/HCDigitalScholarship
