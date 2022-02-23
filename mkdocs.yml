@@ -12,13 +12,13 @@ theme:
   palette:
   - scheme: default
     primary: pink
-    accent: amber
+    accent: blue
     toggle:
       icon: material/toggle-switch
       name: Switch to light mode
   - scheme: slate
     primary: pink
-    accent: amber
+    accent: blue
     toggle:
       icon: material/toggle-switch
       name: Switch to dark mode
