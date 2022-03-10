@@ -9,68 +9,54 @@ There are three main categories of equipment managed by the DS program.  The fir
 ## Virtual Machines 
 
 ### Haverford IITS VMs (see Adam Portier)
-
-| domain                          | ip              | https | status      | partner           | repository                                                        | notes                              |
-|---------------------------------|-----------------|-------|-------------|-------------------|-------------------------------------------------------------------|------------------------------------|
-| ds-wordpress.haverford.edu      | 165.82.124.20   | FALSE |             |                   |                                                                   |                                    |
-| ds-carbonite.haverford.edu      | 165.82.124.23   | FALSE | active      |                   |                                                                   | legacy projects                    |
-| ticha.haverford.edu             | 165.82.124.24   | TRUE  |             | Brook Lillehaugen | https://github.com/HCDigitalScholarship/ticha-django-site         |                                    |
-| pennstreaty.haverford.edu       | 165.82.124.27   | TRUE  |             | Sara Horowitz     | https://github.com/HCDigitalScholarship/QI                        |                                    |
-| gtrp.haverford.edu              | 165.82.124.28   | FALSE | production  | Barak Mendelsohn  | https://github.com/HCDigitalScholarship/global-terrorism-research |                                    |
-| digitalduchemin.org             | 165.82.124.31   | FALSE | production  | Rich Freedman     |                                                                   |                                    |
-| quakerexplorer.haverford.edu    | 165.82.124.33   | FALSE |             | Mary Crauderueff  |                                                                   |                                    |
-| digitalpedagogy.haverford.edu   | 165.82.124.39   | FALSE |             | Terry Snyder      | WordPress                                                         |                                    |
-| oer.haverford.edu               | 165.82.124.49   | TRUE  |             |                   | PressBooks                                                        |                                    |
-| dev-solidarity.haverford.edu    |                 | FALSE | active      |                   |                                                                   | Solidarity Economy Map             |
-| ds-web.haverford.edu            |                 | FALSE | retired     |                   |                                                                   |                                    |
-| qmh.haverford.edu               |                 | FALSE | production  | Mary Crauderueff  | https://github.com/HCDigitalScholarship/QMH                       |                                    |
-| ds-omeka.haverford.edu          |                 | FALSE | retired     |                   | Omeka                                                             | legacy omeka projects              |
-| ds-crim.haverford.edu           | 165.82.124.42   | TRUE  | active      | Rich Freedman     | JupyterHub                                                        |                                    |
-| http://cope.haverford.edu/      | 165.227.217.17  | FALSE |             | Mary Crauderueff  | https://github.com/HCDigitalScholarship/cope-evans                |                                    |
-| Quakers and Travel dev          | 167.71.95.205   |       | development | Mary Crauderueff  | https://github.com/HCDigitalScholarship/Quaker-Travels            |                                    |
-| necrology.haverford.edu/        | 134.209.121.250 | FALSE | production  |                   | https://github.com/HCDigitalScholarship/quaker-necrology          |                                    |
-| GreekPal                        | 165.22.186.240  | FALSE | development | Darin Hayton      |                                                                   |                                    |
-| Quakers and the Holocaust       | 165.22.186.240  | TRUE  | development | David Watt        | https://github.com/HCDigitalScholarship/QH                        |                                    |
-| Dictionary of Quaker Biography  | 198.211.117.101 | FALSE | development | Mary Crauderueff  | https://github.com/HCDigitalScholarship/DQB                       |                                    |
-| CRIM-dev                        | 159.65.177.99   |       | development |                   |                                                                   | RETIRE                             |
-| QI-dev                          | 159.203.172.178 |       | development |                   |                                                                   | RETIRE                             |
-| Bridge-dev                      | 104.131.190.90  |       | development |                   |                                                                   | RETIRE                             |
-| Cope Evans                      | 167.99.144.125  |       | legacy      | Mary Crauderueff  | https://github.com/HCDigitalScholarship/CopeEvans                 | old version of site, why running?  |
-| Ticha-dev                       | 192.241.146.226 |       | development |                   |                                                                   | RETIRE                             |
-| GreekPal-dev, BoD, dashboard    | 142.93.193.243  |       |             |                   |                                                                   | RETIRE                             |
-| Cope Evans                      | 165.227.217.17  |       |             |                   |                                                                   |                                    |
-| Old Version of the Bridge       | 157.230.91.119  |       | legacy      | Bret Mulligan     |                                                                   |                                    |
+| domain                        | ip             | partner           | repository                                                        | notes                    |
+|-------------------------------|----------------|-------------------|-------------------------------------------------------------------|--------------------------|
+| ds-wordpress.haverford.edu    | 165.82.124.20  |                   |                                                                   |                          |
+| ds-carbonite.haverford.edu    | 165.82.124.23  |                   |                                                                   | legacy projects          |
+| ticha.haverford.edu           | 165.82.124.24  | Brook Lillehaugen | https://github.com/HCDigitalScholarship/ticha-django-site         |                          |
+| pennstreaty.haverford.edu     | 165.82.124.27  | Sara Horowitz     | https://github.com/HCDigitalScholarship/QI                        |                          |
+| gtrp.haverford.edu            | 165.82.124.28  | Barak Mendelsohn  | https://github.com/HCDigitalScholarship/global-terrorism-research |                          |
+| digitalduchemin.org           | 165.82.124.31  | Rich Freedman     |                                                                   | Rich Freedman            |
+| quakerexplorer.haverford.edu  | 165.82.124.33  | Mary Crauderueff  |                                                                   |                          |
+| digitalpedagogy.haverford.edu | 165.82.124.39  | Terry Snyder      | WordPress                                                         |                          |
+| oer.haverford.edu             | 165.82.124.49  |                   | PressBooks                                                        |                          |
+| dev-solidarity.haverford.edu  |                |                   |                                                                   | Solidarity Economy Map   |
+| ds-web.haverford.edu          |                |                   |                                                                   |                          |
+| qmh.haverford.edu             |                | Mary Crauderueff  | https://github.com/HCDigitalScholarship/QMH                       |                          |
+| ds-omeka.haverford.edu        |                |                   | Omeka                                                             | legacy omeka projects    |
+| ds-crim.haverford.edu         | 165.82.124.42  | Rich Freedman     | JupyterHub                                                        | Rich Freedman JupyterHub |
+| cope.haverford.edu            | 165.227.217.17 | Mary Crauderueff  | https://github.com/HCDigitalScholarship/cope-evans                |                          |
 
 ### Digital Ocean Dropets
-| domain                                        | ip              | https | status      | partner                    | repository                                                   | notes                                                |
-|-----------------------------------------------|-----------------|-------|-------------|----------------------------|--------------------------------------------------------------|------------------------------------------------------|
-| migrantvoices.haverford.edu                   | 147.182.213.25  | TRUE  | development | Anita Issacs, Anne Preston | https://github.com/HCDigitalScholarship/migration-encounters | moving to WordPress, this can be retired soon        |
-| bridge.haverford.edu                          | 64.227.97.179   | TRUE  | production  | Bret Mulligan              | https://github.com/HCDigitalScholarship/FastBridge           | FastAPI                                              |
-| archivogam.haverford.edu                      | 192.241.128.56  | TRUE  | production  | Carlos Juárez              | https://github.com/HCDigitalScholarship/GAM                  | Django, with significant assets in DO object storage |
-| crimproject.org                               | 167.99.13.5     | TRUE  | production  | Rich Freedman              | https://github.com/CRIM-Project/CRIM-online                  | Django                                               |
-| booksofduchesses.com                          | 67.207.92.242   | TRUE  | production  | Sarah Watson               | https://github.com/HCDigitalScholarship/booksofduchesses     | this is being retired                                |
-| islaminchina.org                              | 167.99.0.192    | TRUE  | development | Guangtian Ha               | https://github.com/HCDigitalScholarship/islam-in-china       | FastAPI                                              |
-| economicsexperiment.com                       | 147.182.213.25  | FALSE | production  | Haya Goldblatt             | https://github.com/HCDigitalScholarship/fuzzytext            | Django                                               |
-| cobbswatershed.org                            | 162.243.175.124 | FALSE | production  | Josh Moses                 | WordPress                                                    | could be moved to sites.haverford                    |
-| manumissions.haverford.edu                    | 68.183.124.230  | TRUE  | production  | Mary Crauderueff           | https://github.com/HCDigitalScholarship/manumissions         | Django                                               |
-|                                               |                 |       |             |                            |                                                              |                                                      |
-| Quakers and Mental Health site in development | 137.184.59.75   | FALSE | develpment  | Mary Crauderueff           | https://github.com/HCDigitalScholarship/qmh-v2               |                                                      |
-| civicengagementmap.haverford.edu              | 147.182.213.25  | TRUE  | develpment  | CPGC                       | https://github.com/HCDigitalScholarship/civic-engagement-map | retired, moving Drupal w/ Communcations              |
-| Beyond Penn's Treaty in development           | 104.131.31.182  | FALSE | develpment  | Sarah Horowitz             | https://github.com/HCDigitalScholarship/penn-treaty-v2       |                                                      |
-|                                               |                 |       |             |                            |                                                              |                                                      |
-| CRIM development copy                         | 161.35.0.93     | FALSE | development | Rich Freedman              |                                                              | RETIRE                                               |
-| Quakers and Travel dev                        | 167.71.95.205   |       | development | Mary Crauderueff           | https://github.com/HCDigitalScholarship/Quaker-Travels       |                                                      |
-| necrology.haverford.edu/                      | 134.209.121.250 | FALSE | production  |                            | https://github.com/HCDigitalScholarship/quaker-necrology     |                                                      |
-| GreekPal                                      | 165.22.186.240  | FALSE | development | Darin Hayton               |                                                              |                                                      |
-| Quakers and the Holocaust                     | 165.22.186.240  | TRUE  | development | David Watt                 | https://github.com/HCDigitalScholarship/QH                   |                                                      |
-| Dictionary of Quaker Biography                | 198.211.117.101 | FALSE | development | Mary Crauderueff           | https://github.com/HCDigitalScholarship/DQB                  |                                                      |
-| CRIM-dev                                      | 159.65.177.99   |       | development |                            |                                                              | RETIRE                                               |
-| QI-dev                                        | 159.203.172.178 |       | development |                            |                                                              | RETIRE                                               |
-| Bridge-dev                                    | 104.131.190.90  |       | development |                            |                                                              | RETIRE                                               |
-| Cope Evans                                    | 167.99.144.125  |       | legacy      | Mary Crauderueff           | https://github.com/HCDigitalScholarship/CopeEvans            | old version of site, why running?                    |
-| Ticha-dev                                     | 192.241.146.226 |       | development |                            |                                                              | RETIRE                                               |
-| GreekPal-dev, BoD, dashboard                  | 142.93.193.243  |       |             |                            |                                                              | RETIRE                                               |
-| Cope Evans                                    | 165.227.217.17  |       |             |                            |                                                              |                                                      |
-| Old Version of the Bridge                     | 157.230.91.119  |       | legacy      | Bret Mulligan              |                                                              |                                                      |
+| domain                                        | ip              | partner                    | repository                                                   | notes                    |
+|-----------------------------------------------|-----------------|----------------------------|--------------------------------------------------------------|--------------------------|
+| migrantvoices.haverford.edu                   | 147.182.213.25  | Anita Issacs, Anne Preston | https://github.com/HCDigitalScholarship/migration-encounters |                          |
+| bridge.haverford.edu                          | 64.227.97.179   | Bret Mulligan              | https://github.com/HCDigitalScholarship/FastBridge           | legacy projects          |
+| archivogam.haverford.edu                      | 192.241.128.56  | Carlos Juárez              | https://github.com/HCDigitalScholarship/GAM                  |                          |
+| crimproject.org                               | 167.99.13.5     | Rich Freedman              | https://github.com/CRIM-Project/CRIM-online                  |                          |
+| booksofduchesses.com                          | 67.207.92.242   | Sarah Watson               | https://github.com/HCDigitalScholarship/booksofduchesses     |                          |
+| islaminchina.org                              | 167.99.0.192    | Guangtian Ha               | https://github.com/HCDigitalScholarship/islam-in-china       | Rich Freedman            |
+| economicsexperiment.com                       | 147.182.213.25  | Haya Goldblatt             | https://github.com/HCDigitalScholarship/fuzzytext            |                          |
+| cobbswatershed.org                            | 162.243.175.124 | Josh Moses                 | WordPress                                                    |                          |
+| manumissions.haverford.edu                    | 68.183.124.230  | Mary Crauderueff           | https://github.com/HCDigitalScholarship/manumissions         |                          |
+|                                               |                 |                            |                                                              | Solidarity Economy Map   |
+| Quakers and Mental Health site in development | 137.184.59.75   | Mary Crauderueff           | https://github.com/HCDigitalScholarship/qmh-v2               |                          |
+| civicengagementmap.haverford.edu              | 147.182.213.25  | CPGC                       | https://github.com/HCDigitalScholarship/civic-engagement-map |                          |
+| Beyond Penn's Treaty in development           | 104.131.31.182  | Sarah Horowitz             | https://github.com/HCDigitalScholarship/penn-treaty-v2       | legacy omeka projects    |
+|                                               |                 |                            |                                                              | Rich Freedman JupyterHub |
+| CRIM development copy                         | 161.35.0.93     | Rich Freedman              |                                                              |                          |
+| Quakers and Travel dev                        | 167.71.95.205   | Mary Crauderueff           | https://github.com/HCDigitalScholarship/Quaker-Travels       |                          |
+| necrology.haverford.edu/                      | 134.209.121.250 |                            | https://github.com/HCDigitalScholarship/quaker-necrology     |                          |
+| GreekPal                                      | 165.22.186.240  | Darin Hayton               |                                                              |                          |
+| Quakers and the Holocaust                     | 165.22.186.240  | David Watt                 | https://github.com/HCDigitalScholarship/QH                   |                          |
+| Dictionary of Quaker Biography                | 198.211.117.101 | Mary Crauderueff           | https://github.com/HCDigitalScholarship/DQB                  |                          |
+| CRIM-dev                                      | 159.65.177.99   |                            |                                                              |                          |
+| QI-dev                                        | 159.203.172.178 |                            |                                                              |                          |
+| Bridge-dev                                    | 104.131.190.90  |                            |                                                              |                          |
+| Cope Evans                                    | 167.99.144.125  | Mary Crauderueff           | https://github.com/HCDigitalScholarship/CopeEvans            |                          |
+| Ticha-dev                                     | 192.241.146.226 |                            |                                                              |                          |
+| GreekPal-dev, BoD, dashboard                  | 142.93.193.243  |                            |                                                              |                          |
+| Cope Evans                                    | 165.227.217.17  |                            |                                                              |                          |
+| Old Version of the Bridge                     | 157.230.91.119  | Bret Mulligan              |                                                              |                          |
 
 ## Other stuff
