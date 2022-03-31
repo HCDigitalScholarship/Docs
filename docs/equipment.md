@@ -31,7 +31,7 @@ There are three main categories of equipment managed by the DS program.  The fir
 ### Digital Ocean Dropets
 | domain                                        | ip              | partner                    | repository                                                   | notes                    |
 |-----------------------------------------------|-----------------|----------------------------|--------------------------------------------------------------|--------------------------|
-| migrantvoices.haverford.edu                   | 147.182.213.25  | Anita Issacs, Anne Preston | https://github.com/HCDigitalScholarship/migration-encounters |                          |
+| beyondborders.haverford.edu                   | 147.182.213.25  | Anita Issacs, Anne Preston | https://github.com/HCDigitalScholarship/migration-encounters |                          |
 | bridge.haverford.edu                          | 64.227.97.179   | Bret Mulligan              | https://github.com/HCDigitalScholarship/FastBridge           | legacy projects          |
 | archivogam.haverford.edu                      | 192.241.128.56  | Carlos Juárez              | https://github.com/HCDigitalScholarship/GAM                  |                          |
 | crimproject.org                               | 167.99.13.5     | Rich Freedman              | https://github.com/CRIM-Project/CRIM-online                  |                          |
