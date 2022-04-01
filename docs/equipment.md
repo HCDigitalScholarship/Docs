@@ -7,6 +7,18 @@ There are three main categories of equipment managed by the DS program.  The fir
 
 - Macbooks. There are two Macbook pros that were recently purchased for use by students. In theory, they provide a workspace with all the necessary programs for development work.  In practice, most students prefer to work on their own machines.  Several of our projects are currently too complicated to install locally and have their own digital ocean droplets as dev servers. 
 
+- Slack. DS maintains a Slack organization that is used widely across the Libraries. It should probably be used as Libraries Slack rather than just DS. haverfordds.slack.com  There is also trico-ds.slack.com
+
+- GitHub. 
+  - There is a GitHub organization for DS projects: https://github.com/orgs/HCDigitalScholarship
+  - Internal docs including passwords and such are here: https://github.com/HCDigitalScholarship/internal-docs
+  - The "DS Cookbook" with common solution and processes is here: https://github.com/HCDigitalScholarship/ds-cookbook
+  
+  - Also one for Tri-co DS: https://github.com/orgs/tri-cods
+  - KeystoneDH: https://github.com/orgs/KeystoneDH
+  - CRIM-Project: https://github.com/orgs/CRIM-Project
+
+
 ## Virtual Machines 
 
 ### Haverford IITS VMs (see Adam Portier)
