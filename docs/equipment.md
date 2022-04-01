@@ -9,14 +9,13 @@ There are three main categories of equipment managed by the DS program.  The fir
 
 - Slack. DS maintains a Slack organization that is used widely across the Libraries. It should probably be used as Libraries Slack rather than just DS. haverfordds.slack.com  There is also trico-ds.slack.com
 
-- GitHub. 
-  - There is a GitHub organization for DS projects: https://github.com/orgs/HCDigitalScholarship
-  - Internal docs including passwords and such are here: https://github.com/HCDigitalScholarship/internal-docs
-  - The "DS Cookbook" with common solution and processes is here: https://github.com/HCDigitalScholarship/ds-cookbook
-  
-  - Also one for Tri-co DS: https://github.com/orgs/tri-cods
-  - KeystoneDH: https://github.com/orgs/KeystoneDH
-  - CRIM-Project: https://github.com/orgs/CRIM-Project
+## GitHub 
+- There is a [GitHub organization for DS projects](https://github.com/orgs/HCDigitalScholarship)
+- [Internal docs including passwords and such are here](https://github.com/HCDigitalScholarship/internal-docs)
+  - [The "DS Cookbook" with common solution and processes is here](https://github.com/HCDigitalScholarship/ds-cookbook)
+  - [One for Tri-co DS](https://github.com/orgs/tri-cods)
+  - [KeystoneDH](https://github.com/orgs/KeystoneDH)
+  - [CRIM-Project](https://github.com/orgs/CRIM-Project)
 
 
 ## Virtual Machines 
@@ -72,4 +71,11 @@ There are three main categories of equipment managed by the DS program.  The fir
 | Cope Evans                                    | 165.227.217.17  |                            |                                                              |                          |
 | Old Version of the Bridge                     | 157.230.91.119  | Bret Mulligan              |                                                              |                          |
 
-## Other stuff
+## "Stacks"
+
+Most of our project use either Django or FastAPI. Following guidance from Adam Portier, we use a LEMP stack for all Django projects. A tutorial on our use of LEMP stack can be found in the [DS Cookbook](https://github.com/HCDigitalScholarship/ds-cookbook/tree/master/server_configurations). You can find a project's application server configuration in `/etc/uwsgi/apps-available`. That will point you to the project's directory and virtual environment. The nginx configuration will be in `/etc/nginx/sites-available`.  Our Django projects use MySQL, postgres or postgis databases.   
+
+FastAPI allows asyncronous programming and thus uses an asgi server rather than wsgi.  You can find a configuration file for these projects in `/etc/systemd/system/`.  Bridge is gunicorn.service.  Islam in China is uvicorn.service, but they can be re-named however you like.  Gunicorn is used to run the workers and serve a socket or port that is passed to nginx.   
+
+
+
